@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Invitatie With You</title>
+</head>
+
+<body>
+    <section>
+        <div class="contact-form">
+            <h2>Te asteptam cu drag!</h2>
+            <p>Completeaza formularul de mai jos pentru a ne anunta decizia ta.</p>
+            <input type="text" placeholder="Nume">
+            <input type="text" placeholder="Telefon">
+            <span>
+                <label for="numar-persoane">Cate persoane vor participa?</label>
+                <select id="numar-persoane" name="numar-persoane">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </span>
+            <span>
+                <label for="tip-meniu">Cate persoane vor participa?</label>
+                <select id="tip-meniu" name="tip-meniu">
+                    <option value="normal" selected>normal</option>
+                    <option value="vegetarian">vegetarian</option>
+                </select>
+            </span>
+            <textarea name="mesaj" cols="30" rows="10" placeholder="Mesaj pentru miri"></textarea>
+            <p>Vei fi alaturi de noi?</p>
+            <span>
+                <input type="radio" id="prezent" name="confirma-prezenta" value="Da, voi fi acolo!">
+                <label for="prezent">Da, voi fi acolo!</label>
+            </span>
+            <span>
+                <input type="radio" id="absent" name="confirma-prezenta" value="Imi pare rau, nu pot ajunge">
+                <label for="absent">Imi pare rau, nu pot ajunge</label>
+            </span>
+            <button>Trimite Confirmarea</button>
+        </div>
+    </section>
+</body>
+
+</html>
