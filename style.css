@@ -81,7 +81,7 @@ h4 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-/* Others */
+/* MAIN WRAPPER */
 .wrapper {
   display: grid;
   grid-auto-flow: row;
@@ -91,6 +91,25 @@ h4 {
   height: 25vh;
   background-color: beige;
 }
+
+/* MAIN WRAPPER */
+
+/* Hero */
+
+/* Hero */
+
+/* Protagonists photo */
+
+/* Protagonists photo */
+
+/* Info-cards */
+
+/* Info-cards */
+
+/* Godparents and parents */
+
+/* Godparents and parents */
+
 /* Contact Form */
 
 .confirmation {
@@ -153,3 +172,11 @@ h4 {
 }
 
 /* Contact Form */
+
+/* End-message */
+
+/* End-message */
+
+/* Footer */
+
+/* Footer */
