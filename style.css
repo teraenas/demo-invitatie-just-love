@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: grey;
+}
+
+.contact-form {
+  --_gap: 0.66rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--_gap);
+  padding: var(--_gap) 0;
+  background-color: rgb(211, 211, 211);
+}
+
+.contact-form > * {
+  flex: 1 1 49%;
+}
+
+.contact-form input:not([type='radio']),
+.contact-form textarea,
+.contact-form select {
+  appearance: none;
+  padding: 0.5rem;
+  line-height: 1.15rem;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgb(207, 138, 35);
+}
+
+.contact-form h2,
+.contact-form p:first-of-type {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.contact-form textarea {
+  flex-basis: 100%;
+}
+
+.contact-form span:nth-of-type() {
+  color: red;
+}
+
+.contact-form button {
+  flex-basis: 100%;
+}
