@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Playball", cursive;
+}
+
+.card h1 {
+  color: #5880a2;
+  font-family: "Alex Brush", cursive;
+  font-size: 32px;
+  font-weight: 100;
+  padding-top: 20px;
+}
+
+.card,
+.card,
+.card {
+  width: 300px;
+  height: 600px;
+  line-height: 30px;
+  margin-right: 20px;
+  text-align: center;
+  color: #bca680;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 8px;
+  border-image: linear-gradient(50deg, #bca680, #5880a2);
+  border-image-slice: 1;
+  box-shadow: 0 0 35px 0 rgb(0 0 0 / 19%);
+  padding: 25px;
+}
+
+img.main {
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+iframe {
+  width: 100%;
+  margin: 0;
+}
