@@ -30,7 +30,69 @@ body {
 /* Hero */
 
 /* Protagonists photo */
+.protagonists-photo {
+  display: grid;
+  grid-template-columns: 400px;
+  justify-content: center;
+  align-items: center;
+}
 
+.protagonists-photo .round-image {
+  margin: 0;
+}
+
+.protagonists-photo .rounded {
+  text-align: center;
+  box-sizing: border-box;
+  height: auto;
+  max-width: 300%;
+  vertical-align: middle;
+  display: inline-block;
+  border-style: double;
+  border-color: #5880a2;
+  border-radius: 222px 222px 222px 222px;
+  width: 90%;
+  border-width: 4px 4px 4px 4px;
+}
+
+.protagonists-photo .message-1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'DM Sans';
+  font-size: 22px;
+  font-weight: 400px;
+  color: rgb(133, 116, 53);
+  height: 100px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.protagonists-photo .message-2 {
+  color: #5880a2;
+  font-family: 'Alex Brush', Sans-serif;
+  font-weight: 400px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.protagonists-photo .flower-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.protagonists-photo .flower {
+  padding: 50px;
+  width: 90px;
+  height: 60px;
+}
+
+.protagonists-photo .element-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: -30px;
+}
 /* Protagonists photo */
 
 /* Info-cards */
@@ -94,10 +156,10 @@ iframe {
 
 /* Utility classes  */
 
-h1,
-h2,
-h3,
-h4 {
+.confirmation h1,
+.confirmation h2,
+.confirmation h3,
+.confirmation h4 {
   font-family: 'DM Sans', sans-serif;
   font-weight: 300;
   letter-spacing: 0.125rem;
@@ -161,6 +223,12 @@ h4 {
 .confirmation {
   background: url('./img/contact-bg.png') no-repeat center;
   background-attachment: fixed;
+}
+
+.confirmation .separator-image {
+  display: flex;
+  justify-content: center;
+  background-color: white;
 }
 
 .confirmation .section-title {
