@@ -8,6 +8,12 @@
   --gold-color: rgb(188, 166, 128);
 }
 
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
 body {
   min-height: 100vh;
 }
@@ -18,15 +24,56 @@ body {
   grid-auto-flow: row;
 }
 
-.wrapper > *:not(.confirmation) {
-  /* height: 25vh; */
-  /* background-color: beige; */
-}
-
 /* MAIN WRAPPER */
 
 /* Hero */
+.hero,
+.hero * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+.elementor-column {
+  width: 453;
+  height: 167;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.elementor-img-floating {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  position: relative;
+  justify-content: center;
+  z-index: 2;
+  bottom: 200px;
+}
+
+.elementor-img {
+  width: 452;
+  height: 638;
+  margin: 16px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+}
+
+.header2 {
+  font-size: 21px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #bca680;
+}
+
+.header1 {
+  font-size: 81px;
+  font-family: 'Kaushan Script', cursive, sans-serif;
+  color: #5880a2;
+}
 /* Hero */
 
 /* Protagonists photo */
@@ -203,12 +250,12 @@ iframe {
 }
 
 .confirmation .button {
-  height: 2.25rem;
   appearance: none;
+  height: 2.25rem;
   font-size: 1.4rem;
   color: white;
-  border: none;
   background-color: var(--accent-color);
+  border: none;
   cursor: pointer;
 }
 
@@ -232,9 +279,8 @@ iframe {
 }
 
 .confirmation .section-title {
-  width: 100%;
-  text-align: center;
   padding: 1.8rem 0;
+  text-align: center;
   font-family: 'Playball', cursive;
   font-size: 1.8rem;
   color: var(--accent-color);
@@ -243,14 +289,14 @@ iframe {
 
 .contact-form {
   --_gap: 0.66rem;
-  max-width: 700px;
-  margin-inline: auto;
   display: flex;
   flex-wrap: wrap;
+  max-width: 700px;
+  margin-inline: auto;
   justify-content: center;
   gap: var(--_gap);
   padding: calc(var(--_gap) * 3);
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .contact-form > * {

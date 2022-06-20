@@ -10,12 +10,16 @@
 </head>
 
 <body>
-    <section>
+    <section class="confirmation">
+        <div class="separator-image"><img src="./img/event-shape-1.png" alt=""></div>
+        <p class="section-title">Confirmare</p>
         <div class="contact-form">
             <h2>Te asteptam cu drag!</h2>
-            <p class="cursive golden">Completeaza formularul de mai jos pentru a ne anunta decizia ta.</p>
-            <input class="input rounded golden-border cursive" type="text" placeholder="Nume">
-            <input class="input rounded golden-border cursive" type="text" placeholder="Telefon">
+            <p class="cursive golden">
+                Completeaza formularul de mai jos pentru a ne anunta decizia ta.
+            </p>
+            <input class="input rounded golden-border cursive" type="text" placeholder="Nume" />
+            <input class="input rounded golden-border cursive" type="text" placeholder="Telefon" />
             <span>
                 <label class="cursive golden" for="numar-persoane">Cate persoane vor participa?</label>
                 <select class="select rounded golden-border cursive" id="numar-persoane" name="numar-persoane">
@@ -38,11 +42,11 @@
                 placeholder="Mesaj pentru miri"></textarea>
             <p class="cursive golden">Vei fi alaturi de noi?</p>
             <span>
-                <input type="radio" id="prezent" name="confirma-prezenta" value="Da, voi fi acolo!">
+                <input type="radio" id="prezent" name="confirma-prezenta" value="Da, voi fi acolo!" />
                 <label class="cursive golden" for="prezent">Da, voi fi acolo!</label>
             </span>
             <span>
-                <input type="radio" id="absent" name="confirma-prezenta" value="Imi pare rau, nu pot ajunge">
+                <input type="radio" id="absent" name="confirma-prezenta" value="Imi pare rau, nu pot ajunge" />
                 <label class="cursive golden" for="absent">Imi pare rau, nu pot ajunge</label>
             </span>
             <button class="button rounded cursive">Trimite Confirmarea</button>
